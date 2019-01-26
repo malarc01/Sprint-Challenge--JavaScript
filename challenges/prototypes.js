@@ -14,7 +14,7 @@ function CubodidMaker(props){
         return l*w*h
     }
 
-
+}
 
     CubodidMaker.prototype.volume = function(l,w,h){
         return this.length*this.width*this.height

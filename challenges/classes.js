@@ -1,15 +1,6 @@
-// 1. Copy and paste your prototype in here and refactor into class syntax.
-//function CubodidMaker(props){
-//    this.length = props.length;
-//    this.width = props.width;
-//    this.height = props.height;
-////    this.vol = function(l,w,h){
-////        return l*w*h
-////    }
-////
-//}
 
-class CubodidMaker{
+
+class CU{
     constructor(properties){
         this.length = properties.length;
         this.width = properties.width;
@@ -32,7 +23,7 @@ class CubodidMaker{
 //    return 2*(this.length * this.width + this.length * this.height + this.width * this.height)
 //}
 //
-const CUBE2 = new CubodidMaker({
+const CUBE2 = new CU({
     length: 4,
     width: 5,
     height: 5

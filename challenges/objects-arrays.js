@@ -207,9 +207,9 @@ The zoos need to know their total animal population across the United States.  F
 
 */
 
-const reducer = (accum, current) => accum + current;
+// const reducer = (accum, current) => accum + current;
 
-console.log(zooAnimals.reduce(reducer));
+// console.log(zooAnimals.reduce(reducer));
 
 
 
